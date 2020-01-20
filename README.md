@@ -13,8 +13,8 @@
 <p align="center">
   <a href="https://travis-ci.org/richwandell/multiprocessing"><img src="https://img.shields.io/travis/richwandell/multiprocessing/master.svg" alt="Build status" /></a>
   <a href="https://coveralls.io/github/richwandell/multiprocessing?branch=master"><img src="https://img.shields.io/coveralls/github/richwandell/multiprocessing/master" alt="Code coverage" /></a>
-  <!--<a href="https://scrutinizer-ci.com/g/wandell/proc-open-multiprocessing/?branch=master"><img src="https://scrutinizer-ci.com/g/wandell/proc-open-multiprocessing/badges/quality-score.png?b=master" /></a>-->
-  <a href="https://packagist.org/packages/wandell/proc-open-multiprocessing"><img src="https://img.shields.io/packagist/dt/wandell/proc-open-multiprocessing.svg" alt="Packagist" /></a>
+  <!--<a href="https://scrutinizer-ci.com/g/wandell/multiprocessing/?branch=master"><img src="https://scrutinizer-ci.com/g/wandell/multiprocessing/badges/quality-score.png?b=master" /></a>-->
+  <a href="https://packagist.org/packages/wandell/multiprocessing"><img src="https://img.shields.io/packagist/dt/wandell/multiprocessing.svg" alt="Packagist" /></a>
 </p>
 
 ### Features
@@ -119,16 +119,16 @@ IPC can add time to process execution due to the communication overhead. We test
  IPC communication overhead difference becomes less important with real world work loads.  
 
 
-[Simple Proc Pool]: <https://github.com/wandell/proc-open-multiprocessing/blob/master/example/simple_proc_pool_example.php>
-[WorkerPool Pipeline]: <https://github.com/wandell/proc-open-multiprocessing/blob/master/example/multi_worker_pool_stream.php>
-[AlphaVantage API - Draw Stock Charts Pipeline]: <https://github.com/wandell/proc-open-multiprocessing/blob/master/example/alpha_vantage_charts_stream.php>
-[Fibo Rate Limited]: <https://github.com/wandell/proc-open-multiprocessing/blob/master/example/rate_limited_example.php>
-[Rate Limited Pipeline]: <https://github.com/wandell/proc-open-multiprocessing/blob/master/example/rate_limited_pipeline.php>
-[Fibo Proc]: <https://github.com/wandell/proc-open-multiprocessing/blob/master/example/proc_scripts/fibo_proc.php>
-[Step 1 Fibo]: <https://github.com/wandell/proc-open-multiprocessing/blob/master/example/proc_scripts/pipeline_1_step1.php>
-[Step 2 Waste Time]: <https://github.com/wandell/proc-open-multiprocessing/blob/master/example/proc_scripts/pipeline_1_step2.php>
-[Step 3 Waste More Time]: <https://github.com/wandell/proc-open-multiprocessing/blob/master/example/proc_scripts/pipeline_1_step3.php>
-[Download Stock Data]: <https://github.com/wandell/proc-open-multiprocessing/blob/master/example/proc_scripts/pipeline_2_step1.php>
-[Draw Stock Charts]: <https://github.com/wandell/proc-open-multiprocessing/blob/master/example/proc_scripts/pipeline_2_step2.php>
-[Speed Test]: <https://github.com/wandell/proc-open-multiprocessing/blob/master/example/proc_scripts/pipeline_2_step2.php>
-[Echo Proc]: <https://github.com/wandell/proc-open-multiprocessing/blob/master/example/proc_scripts/echo_proc.php>
+[Simple Proc Pool]: <https://github.com/wandell/multiprocessing/blob/master/example/simple_proc_pool_example.php>
+[WorkerPool Pipeline]: <https://github.com/wandell/multiprocessing/blob/master/example/multi_worker_pool_stream.php>
+[AlphaVantage API - Draw Stock Charts Pipeline]: <https://github.com/wandell/multiprocessing/blob/master/example/alpha_vantage_charts_stream.php>
+[Fibo Rate Limited]: <https://github.com/wandell/multiprocessing/blob/master/example/rate_limited_example.php>
+[Rate Limited Pipeline]: <https://github.com/wandell/multiprocessing/blob/master/example/rate_limited_pipeline.php>
+[Fibo Proc]: <https://github.com/wandell/multiprocessing/blob/master/example/proc_scripts/fibo_proc.php>
+[Step 1 Fibo]: <https://github.com/wandell/multiprocessing/blob/master/example/proc_scripts/pipeline_1_step1.php>
+[Step 2 Waste Time]: <https://github.com/wandell/multiprocessing/blob/master/example/proc_scripts/pipeline_1_step2.php>
+[Step 3 Waste More Time]: <https://github.com/wandell/multiprocessing/blob/master/example/proc_scripts/pipeline_1_step3.php>
+[Download Stock Data]: <https://github.com/wandell/multiprocessing/blob/master/example/proc_scripts/pipeline_2_step1.php>
+[Draw Stock Charts]: <https://github.com/wandell/multiprocessing/blob/master/example/proc_scripts/pipeline_2_step2.php>
+[Speed Test]: <https://github.com/wandell/multiprocessing/blob/master/example/proc_scripts/pipeline_2_step2.php>
+[Echo Proc]: <https://github.com/wandell/multiprocessing/blob/master/example/proc_scripts/echo_proc.php>
