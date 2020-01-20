@@ -5,7 +5,7 @@ script: php vendor/bin/phpunit --configuration test/phpunit.xml --coverage-clove
 after_script:
   - php vendor/bin/coveralls -v
 before_install:
-  - composer require satooshi/php-coveralls:dev-master
+  - composer require satooshi/php-coveralls
 install:
   - composer install
 coverage_clover: test/clover.xml
