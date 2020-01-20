@@ -10,7 +10,7 @@
 ---
 
 <p align="center">
-  <a href="https://travis-ci.org/aventri/proc-open-multiprocessing"><img src="https://img.shields.io/travis/aventri/proc-open-multiprocessing/master.svg" alt="Build status" /></a>
+  <a href="https://travis-ci.org/richwandell/multiprocessing"><img src="https://img.shields.io/travis/richwandell/multiprocessing/master.svg" alt="Build status" /></a>
   <a href="https://coveralls.io/github/aventri/proc-open-multiprocessing?branch=master"><img src="https://img.shields.io/coveralls/aventri/proc-open-multiprocessing/master.svg" alt="Code coverage" /></a>
   <!--<a href="https://scrutinizer-ci.com/g/aventri/proc-open-multiprocessing/?branch=master"><img src="https://scrutinizer-ci.com/g/aventri/proc-open-multiprocessing/badges/quality-score.png?b=master" /></a>-->
   <a href="https://packagist.org/packages/aventri/proc-open-multiprocessing"><img src="https://img.shields.io/packagist/dt/aventri/proc-open-multiprocessing.svg" alt="Packagist" /></a>  
