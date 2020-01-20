@@ -1,5 +1,5 @@
 <?php
 
-namespace aventri\Multiprocessing\IPC;
+namespace wandell\Multiprocessing\IPC;
 
 final class SocketDataRequest {}

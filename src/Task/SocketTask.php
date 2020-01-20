@@ -1,17 +1,17 @@
 <?php /** @noinspection PhpComposerExtensionStubsInspection */
 
-namespace aventri\Multiprocessing\Task;
+namespace wandell\Multiprocessing\Task;
 
-use aventri\Multiprocessing\Exceptions\ChildException;
-use aventri\Multiprocessing\Exceptions\SocketException;
-use aventri\Multiprocessing\IPC\SocketHead;
-use aventri\Multiprocessing\IPC\SocketInitializer;
-use aventri\Multiprocessing\IPC\WakeTime;
-use aventri\Multiprocessing\Pool\SocketPool;
+use wandell\Multiprocessing\Exceptions\ChildException;
+use wandell\Multiprocessing\Exceptions\SocketException;
+use wandell\Multiprocessing\IPC\SocketHead;
+use wandell\Multiprocessing\IPC\SocketInitializer;
+use wandell\Multiprocessing\IPC\WakeTime;
+use wandell\Multiprocessing\Pool\SocketPool;
 use \Exception;
 
 /**
- * @package aventri\Multiprocessing;
+ * @package wandell\Multiprocessing;
  */
 class SocketTask extends EventTask
 {

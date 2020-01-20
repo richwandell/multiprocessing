@@ -1,8 +1,8 @@
 <?php
 
-namespace aventri\Multiprocessing\Pool;
+namespace wandell\Multiprocessing\Pool;
 
-use aventri\Multiprocessing\Mp;
+use wandell\Multiprocessing\Mp;
 use InvalidArgumentException;
 
 abstract class PoolPipeline extends Mp implements JobStartInterface

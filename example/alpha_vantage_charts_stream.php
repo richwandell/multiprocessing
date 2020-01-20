@@ -1,9 +1,9 @@
 <?php
 
-use aventri\Multiprocessing\Example\Steps\Pipeline2\AlphaVantage;
-use aventri\Multiprocessing\PipelineFactory;
-use aventri\Multiprocessing\PoolFactory;
-use aventri\Multiprocessing\Queues\WorkQueue;
+use wandell\Multiprocessing\Example\Steps\Pipeline2\AlphaVantage;
+use wandell\Multiprocessing\PipelineFactory;
+use wandell\Multiprocessing\PoolFactory;
+use wandell\Multiprocessing\Queues\WorkQueue;
 
 include realpath(__DIR__."/../vendor/")."/autoload.php";
 

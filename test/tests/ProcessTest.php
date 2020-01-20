@@ -1,8 +1,8 @@
 <?php
 
-use aventri\Multiprocessing\IPC\StreamInitializer;
-use aventri\Multiprocessing\Process\Process;
-use aventri\Multiprocessing\Task\EventTask;
+use wandell\Multiprocessing\IPC\StreamInitializer;
+use wandell\Multiprocessing\Process\Process;
+use wandell\Multiprocessing\Task\EventTask;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 

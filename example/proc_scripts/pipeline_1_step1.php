@@ -1,7 +1,7 @@
 <?php
 
-use aventri\Multiprocessing\Example\Steps\Pipeline1\Step1;
-use aventri\Multiprocessing\Task\Task;
+use wandell\Multiprocessing\Example\Steps\Pipeline1\Step1;
+use wandell\Multiprocessing\Task\Task;
 
 include realpath(__DIR__ . "/../../vendor/") . "/autoload.php";
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace aventri\Multiprocessing\Task;
+namespace wandell\Multiprocessing\Task;
 
 interface TaskInterface
 {

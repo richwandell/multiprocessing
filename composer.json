@@ -1,17 +1,17 @@
 {
-  "name": "aventri/multiprocessing",
+  "name": "wandell/multiprocessing",
   "description": "Multiprocessing library using streams or unix sockets for inter-process communication.",
   "type": "library",
-  "homepage": "https://aventri.github.io/multiprocessing/",
+  "homepage": "https://richwandell.github.io/multiprocessing/",
   "autoload": {
     "psr-4": {
-      "aventri\\Multiprocessing\\": "src/"
+      "wandell\\Multiprocessing\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "aventri\\Multiprocessing\\test\\": "test/",
-      "aventri\\Multiprocessing\\Example\\": "example/"
+      "wandell\\Multiprocessing\\test\\": "test/",
+      "wandell\\Multiprocessing\\Example\\": "example/"
     }
   },
   "require-dev": {

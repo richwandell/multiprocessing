@@ -1,10 +1,10 @@
 <?php
 
-use aventri\Multiprocessing\Example\Steps\Pipeline1\StepInterface;
-use aventri\Multiprocessing\PipelineFactory;
-use aventri\Multiprocessing\PoolFactory;
-use aventri\Multiprocessing\Queues\RateLimitedQueue;
-use aventri\Multiprocessing\Queues\WorkQueue;
+use wandell\Multiprocessing\Example\Steps\Pipeline1\StepInterface;
+use wandell\Multiprocessing\PipelineFactory;
+use wandell\Multiprocessing\PoolFactory;
+use wandell\Multiprocessing\Queues\RateLimitedQueue;
+use wandell\Multiprocessing\Queues\WorkQueue;
 
 include realpath(__DIR__ . "/../vendor/") . "/autoload.php";
 

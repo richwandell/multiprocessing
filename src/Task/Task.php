@@ -1,10 +1,10 @@
 <?php
 
-namespace aventri\Multiprocessing\Task;
+namespace wandell\Multiprocessing\Task;
 
-use aventri\Multiprocessing\IPC\Initializer;
-use aventri\Multiprocessing\IPC\SocketInitializer;
-use aventri\Multiprocessing\IPC\StreamInitializer;
+use wandell\Multiprocessing\IPC\Initializer;
+use wandell\Multiprocessing\IPC\SocketInitializer;
+use wandell\Multiprocessing\IPC\StreamInitializer;
 
 abstract class Task implements TaskInterface
 {

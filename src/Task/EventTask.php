@@ -1,9 +1,9 @@
 <?php
 
-namespace aventri\Multiprocessing\Task;
+namespace wandell\Multiprocessing\Task;
 
-use aventri\Multiprocessing\Exceptions\ChildErrorException;
-use aventri\Multiprocessing\IPC\WakeTime;
+use wandell\Multiprocessing\Exceptions\ChildErrorException;
+use wandell\Multiprocessing\IPC\WakeTime;
 use DateTime;
 use Exception;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace aventri\Multiprocessing\Queues;
+namespace wandell\Multiprocessing\Queues;
 
-use aventri\Multiprocessing\IPC\WakeTime;
+use wandell\Multiprocessing\IPC\WakeTime;
 use DateInterval;
 use DateTime;
 use InvalidArgumentException;

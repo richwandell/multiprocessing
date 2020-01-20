@@ -1,7 +1,7 @@
 <?php
 
-use aventri\Multiprocessing\Example\Steps\Pipeline2\AlphaVantage;
-use aventri\Multiprocessing\Task\Task;
+use wandell\Multiprocessing\Example\Steps\Pipeline2\AlphaVantage;
+use wandell\Multiprocessing\Task\Task;
 use CpChart\Chart\Stock;
 use CpChart\Data;
 use CpChart\Image;

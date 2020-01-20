@@ -1,6 +1,6 @@
 <?php
 
-use aventri\Multiprocessing\Debug;
+use wandell\Multiprocessing\Debug;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 

@@ -1,7 +1,7 @@
 <?php
 
-use aventri\Multiprocessing\PoolFactory;
-use aventri\Multiprocessing\Queues\WorkQueue;
+use wandell\Multiprocessing\PoolFactory;
+use wandell\Multiprocessing\Queues\WorkQueue;
 
 include realpath(__DIR__ . "/../vendor/") . "/autoload.php";
 

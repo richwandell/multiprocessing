@@ -1,6 +1,6 @@
 <?php
 
-namespace aventri\Multiprocessing\Example\Steps\Pipeline1;
+namespace wandell\Multiprocessing\Example\Steps\Pipeline1;
 
 interface StepInterface
 {

@@ -1,8 +1,8 @@
 <?php
 
-use aventri\Multiprocessing\Pool\StreamPool;
-use aventri\Multiprocessing\Queues\WorkQueue;
-use aventri\Multiprocessing\Task\Task;
+use wandell\Multiprocessing\Pool\StreamPool;
+use wandell\Multiprocessing\Queues\WorkQueue;
+use wandell\Multiprocessing\Task\Task;
 use PHPUnit\Framework\TestCase;
 
 class StreamPoolTest extends TestCase

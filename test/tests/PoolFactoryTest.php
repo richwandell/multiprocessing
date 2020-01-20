@@ -1,9 +1,9 @@
 <?php
 
-use aventri\Multiprocessing\PoolFactory;
-use aventri\Multiprocessing\Pool\SocketPool;
-use aventri\Multiprocessing\Pool\StreamPool;
-use aventri\Multiprocessing\Queues\WorkQueue;
+use wandell\Multiprocessing\PoolFactory;
+use wandell\Multiprocessing\Pool\SocketPool;
+use wandell\Multiprocessing\Pool\StreamPool;
+use wandell\Multiprocessing\Queues\WorkQueue;
 use PHPUnit\Framework\TestCase;
 
 class PoolFactoryTest extends TestCase

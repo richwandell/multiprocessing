@@ -1,8 +1,8 @@
 <?php /** @noinspection PhpComposerExtensionStubsInspection */
 
-namespace aventri\Multiprocessing;
+namespace wandell\Multiprocessing;
 
-use aventri\Multiprocessing\Exceptions\SocketException;
+use wandell\Multiprocessing\Exceptions\SocketException;
 
 abstract class Mp
 {

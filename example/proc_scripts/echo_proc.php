@@ -1,6 +1,6 @@
 <?php
 
-use aventri\Multiprocessing\Task\Task;
+use wandell\Multiprocessing\Task\Task;
 
 include realpath(__DIR__ . "/../../vendor/") . "/autoload.php";
 

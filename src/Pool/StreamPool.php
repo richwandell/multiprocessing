@@ -1,15 +1,15 @@
 <?php
 
-namespace aventri\Multiprocessing\Pool;
+namespace wandell\Multiprocessing\Pool;
 
-use aventri\Multiprocessing\IPC\StreamInitializer;
-use aventri\Multiprocessing\IPC\WakeTime;
-use aventri\Multiprocessing\Process\Process;
-use aventri\Multiprocessing\Queues\RateLimitedQueue;
-use aventri\Multiprocessing\Task\EventTask;
+use wandell\Multiprocessing\IPC\StreamInitializer;
+use wandell\Multiprocessing\IPC\WakeTime;
+use wandell\Multiprocessing\Process\Process;
+use wandell\Multiprocessing\Queues\RateLimitedQueue;
+use wandell\Multiprocessing\Task\EventTask;
 
 /**
- * @package aventri\Multiprocessing;
+ * @package wandell\Multiprocessing;
  */
 class StreamPool extends Pool implements PipelineStepInterface
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace aventri\Multiprocessing\Queues;
+namespace wandell\Multiprocessing\Queues;
 
 use SplQueue;
 
 /**
- * @package aventri\Multiprocessing;
+ * @package wandell\Multiprocessing;
  */
 class WorkQueue extends SplQueue
 {

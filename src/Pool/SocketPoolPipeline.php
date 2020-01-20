@@ -1,9 +1,9 @@
 <?php /** @noinspection PhpComposerExtensionStubsInspection */
 
-namespace aventri\Multiprocessing\Pool;
+namespace wandell\Multiprocessing\Pool;
 
-use aventri\Multiprocessing\Exceptions\SocketException;
-use aventri\Multiprocessing\IPC\SocketHead;
+use wandell\Multiprocessing\Exceptions\SocketException;
+use wandell\Multiprocessing\IPC\SocketHead;
 
 class SocketPoolPipeline extends PoolPipeline
 {

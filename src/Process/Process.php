@@ -1,6 +1,6 @@
 <?php
 
-namespace aventri\Multiprocessing\Process;
+namespace wandell\Multiprocessing\Process;
 
 class Process
 {

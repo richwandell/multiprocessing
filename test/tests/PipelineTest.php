@@ -1,10 +1,10 @@
 <?php
 
-use aventri\Multiprocessing\PoolFactory;
-use aventri\Multiprocessing\Pool\SocketPoolPipeline;
-use aventri\Multiprocessing\Pool\StreamPoolPipeline;
-use aventri\Multiprocessing\Queues\WorkQueue;
-use aventri\Multiprocessing\Task\Task;
+use wandell\Multiprocessing\PoolFactory;
+use wandell\Multiprocessing\Pool\SocketPoolPipeline;
+use wandell\Multiprocessing\Pool\StreamPoolPipeline;
+use wandell\Multiprocessing\Queues\WorkQueue;
+use wandell\Multiprocessing\Task\Task;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 

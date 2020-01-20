@@ -1,6 +1,6 @@
 <?php
 
-namespace aventri\Multiprocessing\Pool;
+namespace wandell\Multiprocessing\Pool;
 
 class StreamPoolPipeline extends PoolPipeline
 {

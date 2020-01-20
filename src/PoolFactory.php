@@ -1,11 +1,11 @@
 <?php
 
-namespace aventri\Multiprocessing;
+namespace wandell\Multiprocessing;
 
-use aventri\Multiprocessing\Pool\Pool;
-use aventri\Multiprocessing\Pool\SocketPool;
-use aventri\Multiprocessing\Pool\StreamPool;
-use aventri\Multiprocessing\Task\Task;
+use wandell\Multiprocessing\Pool\Pool;
+use wandell\Multiprocessing\Pool\SocketPool;
+use wandell\Multiprocessing\Pool\StreamPool;
+use wandell\Multiprocessing\Task\Task;
 use InvalidArgumentException;
 
 final class PoolFactory

@@ -1,15 +1,15 @@
 <?php
 
-namespace aventri\Multiprocessing\Task;
+namespace wandell\Multiprocessing\Task;
 
-use aventri\Multiprocessing\Exceptions\ChildException;
-use aventri\Multiprocessing\IPC\StreamInitializer;
-use aventri\Multiprocessing\IPC\WakeTime;
+use wandell\Multiprocessing\Exceptions\ChildException;
+use wandell\Multiprocessing\IPC\StreamInitializer;
+use wandell\Multiprocessing\IPC\WakeTime;
 use \Exception;
 
 /**
  * Inside a process script, StreamTask interacts with the Pool through streams.
- * @package aventri\Multiprocessing;
+ * @package wandell\Multiprocessing;
  */
 class StreamTask extends EventTask
 {
