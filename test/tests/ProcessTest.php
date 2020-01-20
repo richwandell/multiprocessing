@@ -17,7 +17,7 @@ class ProcessTest extends TestCase
      */
     private string $task;
 
-    public function setUp()
+    protected function setUp()
     {
         $this->task = "php " . realpath(__DIR__ . "/../") . "/proc_scripts/process_test.php";
         $this->process = $this->getMockBuilder(Process::class)

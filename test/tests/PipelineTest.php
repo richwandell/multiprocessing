@@ -19,7 +19,7 @@ class PipelineTest extends TestCase
      */
     private $queue2;
 
-    public function setUp()
+    protected function setUp()
     {
         $this->queue1 = $this->getMockBuilder(WorkQueue::class)
             ->setMethods([
