@@ -6,3 +6,5 @@ php:
   - hhvm # on Trusty only
   - nightly
 script: phpunit --configuration test/phpunit.xml
+install:
+  - composer install
